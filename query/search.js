@@ -29,10 +29,8 @@ fallbackQuery.filter( peliasQuery.view.boundary_gid );
   provided by this HTTP request.
 **/
 function generateQuery( clean ){
-
   const vs = new peliasQuery.Vars( defaults );
-
-
+  
   // input text
   vs.var( 'input:name', clean.text );
 
@@ -127,7 +125,7 @@ function getQuery(vs) {
       body: fallbackQuery.render(vs)
     };
   }
-
+  
   // returning undefined is a signal to a later step that a fallback parser
   // query should be queried for
   return undefined;

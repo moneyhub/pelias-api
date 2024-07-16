@@ -54,7 +54,6 @@ query.filter( peliasQuery.view.boundary_gid );
   provided by this HTTP request.
 **/
 function generateQuery( clean ){
-
   var vs = new peliasQuery.Vars( defaults );
 
   // input text

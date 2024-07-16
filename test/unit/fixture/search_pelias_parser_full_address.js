@@ -91,6 +91,7 @@ module.exports = {
               'parent.locality^1',
               'parent.borough^1',
               'parent.neighbourhood^1',
+              'address_parts.city^1',
               'parent.region_a^1'
             ],
             'query': 'new york ny US',

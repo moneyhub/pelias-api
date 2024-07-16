@@ -1,5 +1,5 @@
 const applyOverrides = require('../../../middleware/applyOverrides')();
-const codec = require('pelias-model').codec;
+const codec = require('@mft/pelias-model').codec;
 
 const proxyquire = require('proxyquire').noCallThru();
 

@@ -1,5 +1,5 @@
 const logger = require('pelias-logger').get('api');
-const Document = require('pelias-model').Document;
+const Document = require('@mft/pelias-model').Document;
 const placeTypes = require('../helper/placeTypes');
 const _ = require('lodash');
 

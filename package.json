@@ -38,6 +38,7 @@
   "dependencies": {
     "@hapi/joi": "^16.0.1",
     "@mapbox/geojson-extent": "^1.0.0",
+    "@mft/pelias-model": "^10.1.0-mft",
     "async": "^3.0.1",
     "elasticsearch": "^16.0.0",
     "express": "^4.8.8",
@@ -53,7 +54,6 @@
     "pelias-labels": "^1.19.0",
     "pelias-logger": "^1.2.0",
     "pelias-microservice-wrapper": "^1.10.0",
-    "pelias-model": "^9.0.0",
     "pelias-parser": "2.2.0",
     "pelias-query": "^11.2.0",
     "pelias-sorting": "^1.7.0",

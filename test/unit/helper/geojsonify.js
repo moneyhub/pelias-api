@@ -1,6 +1,6 @@
 const geojsonify = require('../../../helper/geojsonify');
 const proxyquire = require('proxyquire').noCallThru();
-const codec = require('pelias-model').codec;
+const codec = require('@mft/pelias-model').codec;
 
 module.exports.tests = {};
 

@@ -1,6 +1,6 @@
 const logger = require('pelias-logger').get('coarse_reverse');
 const _ = require('lodash');
-const Document = require('pelias-model').Document;
+const Document = require('@mft/pelias-model').Document;
 const Debug = require('../helper/debug');
 const debugLog = new Debug('controller:coarse_reverse');
 

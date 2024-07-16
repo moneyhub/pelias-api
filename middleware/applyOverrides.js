@@ -1,6 +1,6 @@
 const _ = require('lodash');
 const logger = require('pelias-logger').get('api');
-const codec = require('pelias-model').codec;
+const codec = require('@mft/pelias-model').codec;
 
 function setup() {
   return applyOverrides;

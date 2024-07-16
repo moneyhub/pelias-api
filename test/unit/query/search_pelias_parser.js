@@ -141,6 +141,7 @@ module.exports.tests.query = function(test, common) {
 
     t.deepEqual(compiled.type, 'search_pelias_parser', 'query type set');
     t.deepEqual(compiled.body, expected, 'search_partial_address');
+    
     t.end();
   });
 

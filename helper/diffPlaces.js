@@ -4,7 +4,7 @@ const unicode = require('./unicode');
 const placeTypes = require('./placeTypes');
 const canonicalLayers = require('../helper/type_mapping').getCanonicalLayers();
 const field = require('../helper/fieldValue');
-const codec = require('pelias-model').codec;
+const codec = require('@mft/pelias-model').codec;
 
 // only consider these layers as synonymous for deduplication purposes.
 // when performing inter-layer deduping, layers coming earlier in this list take

@@ -52,6 +52,10 @@ module.exports = _.merge({}, peliasQuery.defaults, {
   'address:postcode:field': 'address_parts.zip',
   'address:postcode:boost': 20,
 
+  'admin:city:analyzer': 'peliasAdmin',
+  'admin:city:field': 'address_parts.city',
+  'admin:city:boost': 1,
+
   // multi match query views require 'type' to be specified
   'multi_match:type': 'best_fields',
 
