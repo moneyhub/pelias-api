@@ -10,6 +10,7 @@ const DETAILS_PROPS = [
   { name: 'street',            type: 'string' },
   { name: 'postalcode',        type: 'string' },
   { name: 'postalcode_gid',    type: 'string' },
+  { name: 'city',              type: 'string' },
   { name: 'confidence',        type: 'default' },
   { name: 'match_type',        type: 'string' },
   { name: 'distance',          type: 'default' },

@@ -6,7 +6,8 @@ const ADDRESS_PROPS = [
   { name: 'unit',   newName: 'unit' },
   { name: 'number', newName: 'housenumber' },
   { name: 'zip',    newName: 'postalcode', transform: (value) => { return [value]; } },
-  { name: 'street', newName: 'street' }
+  { name: 'street', newName: 'street' },
+  { name: 'city',   newName: 'city' }
 ];
 
 
